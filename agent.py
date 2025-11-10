@@ -15,7 +15,8 @@ import requests
 # To run this script, use the following command:
 # API_KEY="your_api_key_here" python3 agent.py "your question here"
 API_KEY = os.environ.get("API_KEY")
-MODEL_NAME = "gemini-2.5-pro"
+# MODEL_NAME = "gemini-2.5-pro"
+MODEL_NAME = "gemini-2.5-flash"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={API_KEY}"
 
 
